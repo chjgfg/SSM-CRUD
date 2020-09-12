@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="org.vector.crud.bean.EmployeeExample.GeneratedCriteria"
+        x="859" y="570">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.bean.EmployeeExample.Criterion"
+            endpointName="criteria" kind="Simple"/>
+    </Class>
+    <Class name="org.vector.crud.bean.DepartmentExample" x="660" y="12">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.bean.DepartmentExample.Criteria"
+            endpointName="oredCriteria" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.bean.DepartmentExample.GeneratedCriteria"/>
+    </Class>
+    <Class name="org.vector.crud.dao.EmployeeMapper" x="308" y="1668">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.vector.crud.service.DepartmentService" x="50" y="1862">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.dao.DepartmentMapper"
+            endpointName="departmentMapper" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.dao.DepartmentMapper"/>
+    </Class>
+    <Class name="org.vector.crud.bean.EmployeeExample.Criteria" x="637" y="278">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.vector.crud.bean.EmployeeExample.GeneratedCriteria"/>
+    </Class>
+    <Class name="org.vector.crud.service.EmployeeService" x="443" y="1488">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.dao.EmployeeMapper"
+            endpointName="employeeMapper" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.bean.EmployeeExample.GeneratedCriteria"/>
+        <Communication destinationClassName="org.vector.crud.dao.EmployeeMapper"/>
+        <Communication destinationClassName="org.vector.crud.bean.EmployeeExample"/>
+    </Class>
+    <Class name="org.vector.crud.bean.Employee" x="328" y="-57">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.bean.Department"
+            endpointName="department" kind="Simple"/>
+    </Class>
+    <Class name="org.vector.crud.bean.EmployeeExample.Criterion" x="458" y="538">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class
+        name="org.vector.crud.bean.DepartmentExample.GeneratedCriteria"
+        x="1" y="330">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.bean.DepartmentExample.Criterion"
+            endpointName="criteria" kind="Simple"/>
+    </Class>
+    <Class name="org.vector.crud.bean.EmployeeExample" x="1017" y="413">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.bean.EmployeeExample.Criteria"
+            endpointName="oredCriteria" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.bean.EmployeeExample.GeneratedCriteria"/>
+    </Class>
+    <Class name="org.vector.crud.bean.DepartmentExample.Criteria"
+        x="522" y="168">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="org.vector.crud.bean.DepartmentExample.GeneratedCriteria"/>
+    </Class>
+    <Class name="org.vector.crud.bean.Department" x="77" y="-58">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.vector.crud.control.DepartmentController" x="184" y="1433">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.service.DepartmentService"
+            endpointName="departmentService" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.service.DepartmentService"/>
+        <Communication destinationClassName="org.vector.crud.bean.Massage"/>
+    </Class>
+    <Class name="org.vector.crud.bean.Massage" x="388" y="995">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.vector.crud.dao.DepartmentMapper" x="4" y="1522">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="org.vector.crud.control.EmployeeController" x="249" y="1262">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="org.vector.crud.service.EmployeeService"
+            endpointName="employeeService" kind="Simple"/>
+        <Communication destinationClassName="org.vector.crud.service.EmployeeService"/>
+        <Communication destinationClassName="org.vector.crud.bean.Massage"/>
+    </Class>
+    <Class name="org.vector.crud.bean.DepartmentExample.Criterion"
+        x="1033" y="134">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>

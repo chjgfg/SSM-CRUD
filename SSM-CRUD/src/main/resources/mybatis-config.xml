@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <!-- 驼峰命名规则 -->
+  <settings>
+  	<setting name="mapUnderscoreToCamelCase" value="true"/>
+  </settings>
+ 
+  <!-- 类型别名 -->
+	<typeAliases>
+		<package name="org.vector.crud.bean"/>
+	</typeAliases>
+	
+	<!-- 配置分页标签 -->
+	<plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+			<!-- 
+				分页合理化:当页面<=0时只查第一页,当页面>最大时只查最后一页
+			 -->
+			<property name="reasonable" value="true"/>
+		</plugin>
+	</plugins>
+</configuration>
